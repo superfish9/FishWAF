@@ -1,0 +1,9 @@
+其他运行时数据表设计：
+
+blocked_ip_by_delay_rule:
+id, ip, rule, time
+
+
+reports:
+id, ip, request, rule, time, type(block or delay_block)
+

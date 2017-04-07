@@ -98,7 +98,7 @@
                   <?php endforeach;?>
                 </tbody>
               </table>
-              <button ip-rule-type="white" type="submit" class="btn btn-primary" onclick="addIPRule(this)">Add</button>
+              <button ip-rule-type="white" type="submit" class="btn btn-default" onclick="addIPRule(this)">Add</button>
             </div>
             <h3 class="sub-header">Black IP</h3>
             <div class="table-responsive">
@@ -126,7 +126,7 @@
                   <?php endforeach;?>
                 </tbody>
               </table>
-              <button ip-rule-type="black" type="submit" class="btn btn-primary" onclick="addIPRule(this)">Add</button>
+              <button ip-rule-type="black" type="submit" class="btn btn-default" onclick="addIPRule(this)">Add</button>
             </div>
           </div>
           <div class="footer">

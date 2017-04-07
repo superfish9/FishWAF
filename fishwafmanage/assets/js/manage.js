@@ -3,7 +3,7 @@ function addIPRule(ob)
 {
     var type = $(ob).attr("ip-rule-type");
     var table = $("#" + type);
-    table.append("<tr><input type=\"hidden\" name=\"type\" value=\"" + type + "\"><td><input name=\"path\" class=\"form-control\"></td><td><input name=\"ip\" class=\"form-control\"></td><td><button type=\"button\" class=\"btn btn-default fright\" onclick=\"makeForm(this)\">Save</button></td></tr>");
+    table.append("<tr><input type=\"hidden\" name=\"type\" value=\"" + type + "\"><td><input name=\"path\" class=\"form-control\"></td><td><input name=\"ip\" class=\"form-control\"></td><td><button type=\"button\" class=\"btn btn-primary fright\" onclick=\"makeForm(this)\">Save</button></td></tr>");
 }
 
 // 提交表单
